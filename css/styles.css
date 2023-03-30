@@ -54,12 +54,11 @@ body{
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
-    outline: 2px solid red;
-    }
+    margin-left: auto;
+    margin-right: auto;
+}
 .header {
 background-color: var(--main-title-color);
-padding-top: 30px;
 border-bottom: 1px solid var(--border-portfolio);
 }
 .header-container{
@@ -72,16 +71,16 @@ align-items: center;
 margin-right: auto;
 }
 .header-logo {
-    margin-right: 130px;
+    margin-right: 72px;
     font-family:  'Raleway', sans-serif;
      font-style: normal;
      font-weight: 800;
      font-size: 18px;
      line-height: 1.17;
-     display: flex;
+    display: flex;
      letter-spacing:  0.03em;
      text-transform: uppercase;
-      color: var(--first-logo-color)
+    color: var(--first-logo-color)
 }
 .header-logotype {
 width: 71px;
@@ -89,17 +88,15 @@ height: 21px;
 font-family: 'Raleway';
 font-weight: 800;
 font-size: 18px;
-line-height: 1.7;
+line-height: 1.17;
 display: flex;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--second-color); 
 }
 .footer-logo{
-    padding-top: 120px;
-    margin-right: 130px;
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
+
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -143,7 +140,6 @@ letter-spacing: 0.02em;
  color: var(--second-color);
 }
 .address {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -151,7 +147,7 @@ letter-spacing: 0.02em;
    }
 
 .header-mail {
-margin-left: 40px;
+padding-left: 40px;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -180,7 +176,6 @@ background-color: var(--main-btn-color);
 .hero-button{
 min-width: 169px;
 height: 56px;
-align-items: center;
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -190,23 +185,29 @@ color: var(--main-title-color);
 background-color: var(--second-btn-color);
 cursor: pointer;
 border-radius: 4px;
+border: none;
 padding: 16px 32px;
+
 }
 .hero-title{
+    
+margin-left: auto;
+margin-right: auto;
+width: 496px;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--main-title-color);
-padding-bottom: 48px;
+margin-bottom: 48px;
 }
-.feature-wrap{
-display: flex;
-width: calc((100% - 72px) / 4);
-padding-top:  120px;
+.section-one{
+padding-top: 120px;
 }
+
 .feature-list{
+
 display: flex;
 gap: 24px;
 }
@@ -214,6 +215,7 @@ gap: 24px;
 width: 264px;
 }
 .post{
+ margin: 8px;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -227,20 +229,23 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--main-text-color);
 }
+.section-three{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
 .hero-title-two{
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
 text-transform: capitalize;
  color: var(--second-color);
-padding-top: 120px;
 padding-bottom: 72px;
 }
 .paintings-list{
-width: calc((100% - 58px) / 3);
 display: flex;
 gap: 24px;
-padding-bottom: 120px;
+
 }
 .section-four-title{
 font-size: 36px;
@@ -249,23 +254,25 @@ text-align: center;
 text-transform: capitalize;
 letter-spacing: 0.02em;
 color: var(--second-color);
-padding-top: 120px;
+
 } 
 .section-four-list{
-width: calc((100% - 72px) / 4);
+margin-top: 72px;
 display: flex;
-padding-top: 72px;
-padding-bottom: 120px;
+
+
 gap: 24px;
 }
 .section-four-img{
     display: block;
-    width: 264px;
 }
 .section-four{
+padding-top: 120px;
+padding-bottom: 120px;
 background:var(--footer-second-color);
 }
 .section-four-photo{
+    margin: 8px;
     text-align: center;
     font-weight: 500;
     font-size: 20px;
@@ -274,23 +281,18 @@ background:var(--footer-second-color);
     color: var(--second-color);
 }
 .cards-portfolio{
-    width: 360px;
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
-     height: auto;
     border: 1px solid var(--border-portfolio);
     border-top: none;
     gap: 8px;
     }
 .cards{
-    width: 264px;
     padding-top: 32px;
-     padding-bottom: 32px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-bottom: 32px;
     border: 1px solid var(--border-portfolio);
-    gap: 8px;
+    
     border-radius: 0px 0px 4px 4px;
     }
 .section-four-item{
@@ -303,6 +305,7 @@ background:var(--footer-second-color);
     color: var(--main-text-color);
 }
 .footer{
+padding-top: 100px;
 padding-bottom: 100px;
 background-color: var(--second-color);
 }
@@ -311,14 +314,16 @@ background-color: var(--second-color);
 
 }
 .footer-text{
-padding-top: 16px;
-width: 264px;
-display: flex;
+    
+margin-top: 16px;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--footer-second-color);
+}
+.footer-content{
+    width: 264px;
 }
 .root{
     background-color: var(--main-title-color);
@@ -340,18 +345,6 @@ color: var(--footer-second-color);
      letter-spacing:  0.03em;
      text-transform: uppercase;
     color: var(--first-logo-color);
-}
-.header-logotype {
-width: 71px;
-height: 21px;
-font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-display: flex;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--second-color); 
 }
 .address{
 line-height: 1.5;
@@ -379,7 +372,9 @@ letter-spacing: 0.02em;
 color: var(--address-color);
 }
 .portfolio{
-   font-family: 'Roboto', sans-serif ; 
+padding-bottom: 120px;
+
+font-family: 'Roboto', sans-serif ; 
 }
 .portfolio-btn  {
     
@@ -409,13 +404,13 @@ padding-top: 96px;
 .portfolio-title{
 display: flex;
  flex-wrap: wrap;
-padding-top: 72px;
-padding-bottom: 120px;
+margin-top: 72px;
+
 gap: 48px 24px;
 }
 .flex-container{
 
-width: calc( 100% - 58px ) / 3;
+width: calc((100% - 48px) / 3);
 }
 .portfolio-btn:hover{color: var(--main-title-color) ;
   background-color: var(--main-btn-color);  
@@ -433,6 +428,7 @@ width: calc( 100% - 58px ) / 3;
 list-style:  none;
 color: var(--second-color);}
 .service-title{
+margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -440,6 +436,7 @@ color: var(--second-color);}
     color: var(--second-color);
 }
 .service-text{
+    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
