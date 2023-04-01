@@ -56,7 +56,6 @@ body{
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 1px solid red;
 }
 .header {
 background-color: var(--main-title-color);
@@ -170,7 +169,6 @@ color: var(--address-color);
 .header-phone:hover {
     color: var(--main-btn-color);
 }
-
 .header-phone:focus {
     color: var(--main-btn-color);
 }
